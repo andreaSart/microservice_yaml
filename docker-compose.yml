@@ -1,0 +1,14 @@
+version: "1.0"
+services:
+  prova_minikube:
+    build: ./prova_minikube
+    ports:
+      - "8080:8080"
+      
+  prova_minikube_secondo:
+    build: ./prova_minikube_secondo
+    ports:
+      - "8081:8080"
+
+      
+
